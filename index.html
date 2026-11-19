@@ -1,0 +1,87 @@
+<!--
+  Name: Esmail Sami Othman
+  Student ID: 224101471
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esmail Sami Othman | Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Esmail Sami Othman</h1>
+    <p class="tagline">Computer Science student at New Mansoura University</p>
+    <nav class="bar">
+      <span class="bar-name">Esmail Sami Othman</span>
+      <div class="bar-links">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/esmailsami">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="about">
+        <img src="images/me.jpg" alt="Portrait of Esmail Sami Othman, smiling, wearing glasses and a navy vest">
+        <div class="about-text">
+          <h2>About me</h2>
+          <p>
+            I am a Computer Science student learning web development.
+            This page is my first project in Field Training I.
+          </p>
+          <p>
+            I like building small things that work and understanding
+            why they work.
+          </p>
+        </div>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h2>Skills</h2>
+          <p>HTML, CSS, and a little JavaScript.</p>
+        </article>
+        <article class="card">
+          <h2>Hobbies</h2>
+          <p>Football, reading, and photography.</p>
+        </article>
+        <article class="card">
+          <h2>Goal</h2>
+          <p>Become a web developer.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Leave your details</h2>
+      <p id="greeting" aria-live="polite"></p>
+
+      <form id="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit" class="send">Send</button>
+        <p id="form-message" role="status"></p>
+      </form>
+    </section>
+
+    <button id="theme-toggle" type="button">Dark mode</button>
+    <button id="back-to-top" type="button" aria-label="Back to top">&uarr;</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Esmail Sami Othman. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
